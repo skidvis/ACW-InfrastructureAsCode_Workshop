@@ -11,7 +11,7 @@ env:
   ARM_TENANT_ID: "${{ secrets.AZURE_TENANT_ID }}"
   CURRENT_BRANCH: ${{ github.head_ref || github.ref_name }} 
   DEPLOYMENT_NAME: 'TerraformDeployResources'
-  REGION: 'eastus'
+  REGION: 'centralus'
   
 permissions:
   id-token: write
